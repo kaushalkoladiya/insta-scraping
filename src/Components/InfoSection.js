@@ -8,7 +8,7 @@ export default (props) => {
           <img
             src={props.info.profileImage}
             className="img img-fluid w-100 h-auto"
-            style={{ width: "500px", height: "auto" }}
+            style={{ maxWidth: "500px" }}
             alt="Profile"
           />
         </div>
